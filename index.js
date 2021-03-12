@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
 	res.render('index');
 })
 
-app.listen(() => console.log(`server is up!`));
+app.listen(() => console.log(`server is up!`));db.list().then(keys => {});const Database = require("@replit/database")
